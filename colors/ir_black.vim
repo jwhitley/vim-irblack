@@ -123,6 +123,14 @@ hi Special          guifg=#E18964     guibg=NONE        gui=NONE      ctermfg=wh
 hi Delimiter        guifg=#00A0A0     guibg=NONE        gui=NONE      ctermfg=cyan        ctermbg=NONE        cterm=NONE
 hi Operator         guifg=white       guibg=NONE        gui=NONE      ctermfg=white       ctermbg=NONE        cterm=NONE
 
+" Diff
+
+hi! link SignColumn LineNr
+hi DiffDelete       guifg=#FF6C60    guibg=NONE         gui=NONE      ctermfg=16          ctermbg=NONE        cterm=NONE
+hi DiffAdd          guifg=NONE       guibg=#35322d      gui=NONE      ctermfg=NONE        ctermbg=236         cterm=NONE
+hi DiffChange       guifg=NONE       guibg=#242321      gui=NONE      ctermfg=NONE        ctermbg=235         cterm=NONE
+hi DiffText         guifg=#EEEEEE    guibg=#35322d      gui=BOLD      ctermfg=white       ctermbg=NONE        cterm=BOLD
+
 hi link Character       Constant
 hi link Boolean         Constant
 hi link Float           Number
